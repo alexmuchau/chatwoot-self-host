@@ -1,0 +1,7 @@
+tunnel: bddd6dfe-dd20-4ee1-9d9c-916eea829a04
+credentials-file: /home/alekkdev/.cloudflared/bddd6dfe-dd20-4ee1-9d9c-916eea829a04.json
+
+ingress:
+  - hostname: chatwoot.muchau.com.br
+    service: http://localhost:3000
+  - service: http_status:404
